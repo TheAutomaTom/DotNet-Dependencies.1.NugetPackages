@@ -1,7 +1,7 @@
 ﻿open System
 open ClassLibrary
 
-printfn "What is six times seven?"
-printfn $"{QuestionResolver.Answer}";
+printfn "Question: What is six times seven?"
+printfn $"Answer: {QuestionResolver.Answer}";
 
 ignore (Console.ReadKey());
