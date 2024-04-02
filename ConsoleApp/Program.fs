@@ -1,9 +1,7 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-open System
+﻿open System
 open ClassLibrary
 
-printfn "Zoltar says ''Make your wish!''"
-let yourWish = System.Console.ReadLine()
+printfn "What is six times seven?"
+printfn $"{QuestionResolver.Answer}";
 
-printfn $"{DeepThinker.TheAnswer}";
-
+ignore (Console.ReadKey());
