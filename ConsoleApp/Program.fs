@@ -2,6 +2,9 @@
 open ClassLibrary
 
 printfn "Question: What is six times seven?"
-printfn $"Answer: {QuestionResolver.Answer}";
+
+let a: string = QuestionResolver.Answer
+
+printfn $"Answer: {a}";
 
 ignore (Console.ReadKey());
